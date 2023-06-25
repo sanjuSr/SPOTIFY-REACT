@@ -1,15 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(17, 98, 112);
+    background-color: rgb(20, 107, 122);
     
   }
   
   .container1 {
     width: 400px;
-    margin: 0 auto;
-    margin-top: 100px;
-    margin-left: 550px;
-    
+    margin-top: 150px;
+    margin-left: 600px;
     padding: 20px;
     border-radius: 10px;
     background-color: #fff;
@@ -63,6 +61,7 @@ body {
   }
   .container h2 {
 font-weight: normal; 
+padding: 30px;
 }
 
 .form-group label {
@@ -71,4 +70,31 @@ font-weight: normal;
 
 .text-center a {
 font-weight: normal; 
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  
+  .container1 {
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 150px;
+    padding: 10px;
+  }
+  
+  .form-group input[type="email"],
+  .form-group input[type="password"] {
+    width: 90%;
+  }
+  
+  .form-group input[type="submit"] {
+    height: 40px;
+    width: 100%;
+  }
+  
+  .text-center a {
+    font-size: 13px;
+  }
 }
